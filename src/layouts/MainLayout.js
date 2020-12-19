@@ -6,19 +6,25 @@ import {
 } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 
+const routes = [
+    {
+        name: 'Homepage',
+        path: '/',
+        component: <HomePage></HomePage>
+    }
+]
+
 export default function MainLayout() {
     let {path} = useRouteMatch();
 
     return (<>
-        <header>Ini Header</header>
-        <main>
-            <Switch>
-                <Route exact path={path}>
-                    Home &gt; Home
-                    <HomePage></HomePage>
+        <Switch>
+            {routes.map((route, i) => (
+                <Route exact path={`${path}${route.path}`} key={i}>
+                    {route.component}
                 </Route>
-            </Switch>
-        </main>
+            ))}
+        </Switch>
         <footer>Ini Footer</footer>
     </>)
 }
