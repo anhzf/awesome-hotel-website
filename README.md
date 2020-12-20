@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Go visit Indonesia!
+Sebuah website yang menampilkan keindahan alam Indonesia, sehingga harapannya dapat menarik para turis dari luar dan juga menumbuhkan rasa bangga masyarakat Indonesia sendiri terhadap apa yang mereka miliki.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
+https://uas-desweb.web.app/
 
-## Available Scripts
+## Made with
+<div style="padding: 1rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: 1.5rem;">
+   <a href="https://tailwindcss.com/" target="_blank">
+      <img src="https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg" />
+   </a>
+   <a href="https://reactjs.org/" target="_blank">
+      <img src="src/logo.svg" />
+   </a>
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
+## Requirements
+- NPM (akan diinstall bersamaan dengan [NodeJS](https://nodejs.org/))
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Memulai
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone repositori ini atau download zip repositori ini
+   ```bash
+    git clone https://github.com/anhzf/awesome-hotel-website.git
+   ```
+2. Masuk ke dalam direktori
+   ```bash
+    cd [Nama folder hasil clone]
+   ```
+3. Install depedensi yang diperlukan
+   ```bash
+    npm install
+   ```
+4. Jalankan server development
+   ```bash
+    npm start
+   ```
+5. Build aplikasi (opsional)
+   ```bash
+    npm run build
+   ```
 
-### `npm test`
+## Daftar Halaman
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `/` (Halaman Utama)
+Berisikan halaman landing page
 
-### `npm run build`
+#### Hero Header
+![awesome indonesia screenshot](docs/asset/main-page%201.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Autoplay Video
+![awesome indonesia screenshot](docs/asset/main-page%202.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Destinasi wisata pilihan
+![awesome indonesia screenshot](docs/asset/main-page%203.png)
+![awesome indonesia screenshot](docs/asset/main-page%204.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Showcase destinasi wisata paling populer
+![awesome indonesia screenshot](docs/asset/main-page%205.png)
 
-### `npm run eject`
+#### Testimoni para turis
+![awesome indonesia screenshot](docs/asset/main-page%206.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `/gallery`
+Berisikan halaman landing page
