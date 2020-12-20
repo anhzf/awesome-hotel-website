@@ -5,14 +5,12 @@ Sebuah website yang menampilkan keindahan alam Indonesia, sehingga harapannya da
 https://uas-desweb.web.app/
 
 ## Made with
-<div style="padding: 1rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: 1.5rem;">
-   <a href="https://tailwindcss.com/" target="_blank">
-      <img src="https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg" />
-   </a>
-   <a href="https://reactjs.org/" target="_blank">
-      <img src="src/logo.svg" />
-   </a>
-</div>
+<a href="https://tailwindcss.com/" target="_blank">
+   <img src="https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg" height="100" />
+</a>
+<a href="https://reactjs.org/" target="_blank">
+   <img src="src/logo.svg" height="100" />
+</a>
 
 
 ## Requirements
