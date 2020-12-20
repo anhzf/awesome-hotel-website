@@ -7,12 +7,12 @@ const ImageCards = () => {
             <img src="https://source.unsplash.com/random" alt="" className="w-full"/>
             <div className="px-6 py-4">
                 <div className="font-bold text-purple-500 text-xl mb-2" >
-                    Photo by Fahmi Habibi
+                    Wisata Tanah Alam
                 </div>     
                 <ul>
                     <li>
-                        <strong>Views: </strong>
-                        4000
+                        <strong>Lokasi: </strong>
+                        Indonesia
                     </li>
                 </ul>
             </div>
