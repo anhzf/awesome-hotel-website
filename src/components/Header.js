@@ -15,9 +15,9 @@ const C = {
     title2: 'text-9xl ',
 }
 
-export default function Header() {
+export default function Header(props) {
     return (<>
-        <header className={C.container}>
+        <header className={C.container} {...props}>
             <div className={C.__background}>
                 <img src={landingPageImg} className={C.__background__img} alt="beautiful indonesia" />
                 <div className={C.__background__overlay}></div>
