@@ -8,11 +8,11 @@ const C = {
     __background: 'relative w-full h-full',
     __background__img: 'w-full h-full',
     __background__overlay: 'absolute top-0 left-0 w-full h-full bg-gradient-to-b from-gray-800',
-    __backgroundContent: 'absolute top-0 left-0 w-full h-full p-20 flex flex-col justify-end',
+    __backgroundContent: 'absolute overflow-auto top-0 left-0 w-full h-full md:p-20 p-12 flex flex-col justify-end',
 
     title: 'text-white font-medium',
-    title1: 'text-6xl ',
-    title2: 'text-9xl ',
+    title1: 'md:text-6xl sm:text-4xl text-3xl',
+    title2: 'md:text-9xl sm:text-8xl text-6xl',
 }
 
 export default function Header(props) {

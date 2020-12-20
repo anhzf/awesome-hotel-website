@@ -9,7 +9,7 @@ export default function ImgCard({title, titleClass = 'text-left', src, className
             <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-gray-900 via-transparent" />
 
             <div className="absolute top-0 left-0 w-full h-full p-4 flex flex-col justify-end">
-                <h4 className={mergeClass('text-4xl text-white font-medium', titleClass)}>{title}</h4>
+                <h4 className={mergeClass('md:text-4xl sm:text-3xl text-2xl text-white font-medium', titleClass)}>{title}</h4>
             </div>
         </div>
     )
