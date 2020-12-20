@@ -16,7 +16,7 @@ function TouristSay({photo, name, jobTitle, word, ...props}) {
         <article className="flex" {...props}>
             <img src={photo} alt="tourist" className="w-48" />
             <div className="p-8 flex flex-col justify-center">
-                <quote className="text-2xl italic">"{word}"</quote>
+                <blockquote className="text-2xl italic">"{word}"</blockquote>
                 <span className="font-medium">-{name}, {jobTitle}</span>
             </div>
         </article>
@@ -25,12 +25,19 @@ function TouristSay({photo, name, jobTitle, word, ...props}) {
 
 export default function HomePage() {
     return (<>
-        <Header id="home" />
+        <Header />
         <main className="p-20 space-y-28">
             <section className="flex flex-col gap-y-16">
                 <h2 className="text-6xl font-medium">Get ready for <span className="text-green-500">the Beauty</span></h2>
-
-                <img src="http://placeimg.com/800/400/nature" alt="beautiful indonesia" className="self-center h-96" />
+                
+                <iframe
+                    title="beautiful Indonesia"
+                    src="https://www.youtube.com/embed/8c1cU4CI7SE?controls=0&autoplay=1&mute=1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    className="self-center w-full h-96 px-48"
+                />
             </section>
 
             <section className="h-80 flex justify-center items-center">
