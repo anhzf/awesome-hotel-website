@@ -9,13 +9,11 @@ function App() {
   return (
     <div className="App min-h-screen">
       <Router>
-        <main>
           <Switch>
             <Route exact path="/">
               <MainLayout />
             </Route>
           </Switch>
-        </main>
       </Router>
     </div>
   );
